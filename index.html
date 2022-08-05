@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>VA2</title>
+</head>
+
+<body>
+  <section>
+    <div class="layer layer1"></div>
+    <div class="layer layer2"></div>
+    <div class="layer layer3"></div>
+    <div class="layer layer4"></div>
+    <div class="layer layer5"></div>
+    <div class="layer layer6"></div>
+    <div class="layer layer7"></div>
+    <div class="layer layer8"></div>
+
+    <div class="card show" id="input-card">
+      <h1 id="card-header">VOWEL BLOCKAGE</h1>
+      <p id="output-box">
+        HEELLOOOO! (hello)
+        <br>
+        Want to torture the English Language? <br>
+        I'm here to help!
+        <br>
+        <br>
+        Just enter a word in below, and tell me how many times you'd like me to repeat
+        your vowels.
+        <br>
+        <br>
+        <input type="text" name="text-input" id="text-input" placeholder="your text here"></input>
+
+      </p>
+      <div>
+        <input type="range" name="range-slider" id="range-slider" min="1" max="10"><span
+          id="slider-number">#</span></input>
+      </div>
+
+      <button class="btn" id="sub-button">SUBMIT</button>
+
+      <div class="response"></div>
+    </div>
+
+    <div class="card hide" id="results-card">
+      ` <h1>VOWEL BLOCKAGE</h1>
+      <br>
+      <p id="output-goes-here">output</p>
+
+      <br>
+    </div>
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
